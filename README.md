@@ -6,7 +6,7 @@ A comprehensive Web-Based Inventory & E-Commerce Management System for stationer
 - **User Side:** Browse products, Search/Filter, Cart Management, Checkout, Custom Product Text.
 - **Admin Side:** Dashboard, Product Management (Add/Edit/Delete), Multi-Image Gallery Support, Order Viewing.
 - **Tech Stack:** HTML, CSS, JavaScript, Core PHP, MySQL.
-
+  
 ## 🛠️ How to Run
 1. Download the repository.
 2. Move the folder to `C:\xampp\htdocs\`.
