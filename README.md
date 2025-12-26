@@ -17,7 +17,7 @@ A comprehensive Web-Based Inventory & E-Commerce Management System for stationer
 7. Open browser and go to `http://localhost/e-stationary-stop/`.
 
 ## 👤 Author
-Developed by Harshil Somani.
+Developed by Harshil Somani.CE student
 <img width="1893" height="700" alt="Screenshot 2025-12-26 125400" src="https://github.com/user-attachments/assets/37d738b6-68ec-444d-a59a-b1fc039f5187" />
 <img width="1879" height="580" alt="Screenshot 2025-12-26 125418" src="https://github.com/user-attachments/assets/db65a640-6602-4285-9278-a88f87c5451a" />
 <img width="1895" height="904" alt="Screenshot 2025-12-26 125432" src="https://github.com/user-attachments/assets/9de38deb-3789-437e-ba10-3acc13ebfd07" />
