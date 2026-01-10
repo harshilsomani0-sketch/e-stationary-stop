@@ -1,40 +1,98 @@
-# 📚 E-Stationary Stop
-### A Comprehensive Web-Based Inventory & E-Commerce System
+<div align="center">
 
-![PHP](https://img.shields.io/badge/Backend-Core%20PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/Frontend-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+  <img src="assets/images/logo.png" alt="Logo" width="100" height="100">
+  <h1 align="center">E-Stationary Stop</h1>
+
+  <p align="center">
+    <strong>A Comprehensive Web-Based Inventory & E-Commerce System</strong>
+    <br />
+    Digitizing local stationery businesses with a robust PHP/MySQL Architecture.
+    <br />
+    <br />
+    <a href="#-demo">View Demo</a>
+    ·
+    <a href="#-features">Report Bug</a>
+    ·
+    <a href="#-features">Request Feature</a>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+    <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  </p>
+</div>
 
 <br />
 
-> **E-Stationary Stop** is a robust, full-stack e-commerce solution designed to digitize local stationery businesses. It features a seamless customer shopping experience and a powerful admin dashboard for inventory management.
+## 📙 About The Project
+
+**E-Stationary Stop** is a full-stack e-commerce solution designed to bridge the gap between traditional stationery retail and digital convenience. It features a seamless customer shopping experience and a powerful admin dashboard for inventory management.
+
+Key technical highlights include a **Custom Multi-Image Upload System**, **Session-Based Cart Logic**, and **Security-First Architecture** using Prepared Statements.
 
 ---
 
-## 🌟 Features
+## 📸 Screen Previews
 
-### 🛒 User Module (Frontend)
-* **Dynamic Product Catalog:** Browse products filtered by categories (Pens, Notebooks, Art Supplies).
-* **Live Search:** Real-time search bar to find products instantly.
-* **Product Customization:** Specialized input field to add **Custom Text** (e.g., Name/Logo) on specific items like diaries.
-* **Smart Gallery:** View products with a main image and interactive thumbnail switcher.
-* **Session-Based Cart:** Persistent shopping cart that retains items during navigation.
-* **Secure Checkout:** Complete checkout process with validation for stock, address, and COD payment.
-
-### 🛠 Admin Module (Backend)
-* **Dashboard:** Analytics view showing total products, orders, and stock alerts.
-* **CRUD Operations:** Full Create, Read, Update, Delete functionality for products.
-* **Multi-Image System:** Support for uploading multiple images per product with auto-renaming logic (time-stamped filenames) to prevent conflicts.
-* **Order Management:** View detailed order status, customer shipping info, and purchased items.
-* **Featured Products:** Toggle "Featured" status to showcase specific items on the Homepage.
-
-### 🔧 Technical Utilities
-* **Image Diagnostic Tool:** Built-in tool (`check_images.php`) to detect broken image links between the database and server folder.
-* **Security:** Uses `Prepared Statements` (SQL) everywhere to prevent SQL Injection.
-* **Sanitization:** `rawurlencode()` used for handling filenames with spaces or special characters.
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <strong>🏠 Home Page</strong><br>
+      <img src="assets/images/screenshot_home.png" alt="Home Page" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>🛍 Product Details</strong><br>
+      <img src="assets/images/screenshot_details.png" alt="Details" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>⚙️ Admin Dashboard</strong><br>
+      <img src="assets/images/screenshot_admin.png" alt="Admin" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>🛒 Shopping Cart</strong><br>
+      <img src="assets/images/screenshot_cart.png" alt="Cart" width="100%">
+    </td>
+  </tr>
+</table>
 
 ---
+
+## 🌟 Key Features
+
+### 🛒 User Module
+* **Dynamic Product Catalog:** Filter products by Category (Pens, Notebooks, etc.).
+* **Live Search:** AJAX-based real-time search functionality.
+* **Customization Engine:** Allows users to add custom text to specific products (e.g., embossing names on diaries).
+* **Smart Gallery:** Interactive thumbnail switcher for product images.
+* **Secure Checkout:** Validation for stock levels, address format, and COD payment.
+
+### 🛠 Admin Module
+* **Analytics Dashboard:** Real-time view of Total Orders, Products, and Revenue.
+* **Inventory Control:** Full CRUD (Create, Read, Update, Delete) capabilities.
+* **Advanced Image Handling:** * Support for **Multiple Images** per product.
+  * Auto-renaming logic (`timestamp_filename.jpg`) to prevent server conflicts.
+* **Order Management:** View customer details and update order status.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+* **XAMPP** (Apache & MySQL)
+* **Web Browser** (Chrome/Edge)
+
+### Installation
+
+1. **Clone the Repo**
+   ```sh
+   git clone [https://github.com/YOUR_USERNAME/e-stationary-stop.git](https://github.com/YOUR_USERNAME/e-stationary-stop.git)
 
 ## 📂 Project Structure
 
